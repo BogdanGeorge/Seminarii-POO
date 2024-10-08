@@ -81,7 +81,7 @@ int main() {
 	cout << pointerA << endl;
 	pointerA = pointerA + 2;
 	cout << pointerA << endl;
-	cout << sizeof(pointerA) << endl;
+	cout << sizeof(pointerA) << endl; // 4 Bytes pe x86 , 8 Bytes pe x64
 
 	pointerA = &a;
 	cout << "Adresa lui a: " << &a << endl;
