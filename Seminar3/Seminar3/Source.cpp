@@ -9,7 +9,7 @@ void generateStackOverflow() {
 void generateMemoryLeak() {
 	for (int i = 0; i < 5000; i++) {
 		int* vect = new int[50000];
-		delete[] vect;
+		delete[] vect; // Fara delete[] va genera memory leak
 	}
 }
 
